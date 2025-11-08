@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative isolate overflow-hidden">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/FduaNp3csZktbOi3/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/rvFZ5oikmZSIbmGQ/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       <div className="relative mx-auto flex min-h-[78vh] max-w-7xl flex-col items-start justify-center px-4 py-24 md:min-h-[85vh] md:px-6">
@@ -18,7 +18,7 @@ export default function Hero() {
             Elevate your gameplay with a modern, electric experience
           </h1>
           <p className="mt-4 text-slate-300 md:text-lg">
-            Discover curated content, mods, and highlights across GTA, PUBG, BGMI, and FS 20 — crafted in a sleek, dark interface with electric blue accents.
+            Discover curated content, mods, and highlights across GTA V, PUBG, BGMI, and FS 24 — crafted in a sleek, dark interface with electric blue accents.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#games" className="rounded-md border border-sky-500/40 bg-sky-500/10 px-5 py-3 text-sm font-semibold text-sky-200 shadow-[0_0_30px_-12px] shadow-sky-500/50 transition-colors hover:border-sky-400 hover:text-sky-100">

@@ -3,7 +3,7 @@ import { Flame, Rocket, Crown, Badge } from "lucide-react";
 const games = [
   {
     key: 'gta',
-    title: 'GTA',
+    title: 'GTA V',
     desc: 'Open‑world chaos, cinematic visuals, and limitless mods.',
     accent: 'from-sky-500/20 to-sky-400/10',
     icon: Rocket,
@@ -23,8 +23,8 @@ const games = [
     icon: Flame,
   },
   {
-    key: 'fs20',
-    title: 'FS 20',
+    key: 'fs24',
+    title: 'FS 24',
     desc: 'Farming sim mastery with ultra‑smooth, immersive sessions.',
     accent: 'from-indigo-500/20 to-indigo-400/10',
     icon: Badge,
