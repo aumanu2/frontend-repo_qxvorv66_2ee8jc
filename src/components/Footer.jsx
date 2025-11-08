@@ -1,4 +1,4 @@
-import { Youtube, Instagram, Twitter } from "lucide-react";
+import { Youtube, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -16,21 +16,18 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
-              className="inline-flex items-center gap-2 rounded-md border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm font-medium text-red-300 transition hover:border-red-400/50 hover:text-red-200"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-red-500/30 bg-red-500/10 text-red-300 transition hover:border-red-400/50 hover:bg-red-500/20 hover:text-red-200 focus:outline-none focus:ring-2 focus:ring-red-500/40"
             >
-              <Youtube className="h-4 w-4" /> @deepakyadavok
+              <Youtube className="h-5 w-5" />
             </a>
             <a
               href="https://www.instagram.com/deepak._x0"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="inline-flex items-center gap-2 rounded-md border border-pink-500/30 bg-pink-500/10 px-3 py-2 text-sm font-medium text-pink-300 transition hover:border-pink-400/50 hover:text-pink-200"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-pink-500/30 bg-pink-500/10 text-pink-300 transition hover:border-pink-400/50 hover:bg-pink-500/20 hover:text-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-500/40"
             >
-              <Instagram className="h-4 w-4" /> @deepak._x0
-            </a>
-            <a href="#" aria-label="Twitter" className="inline-flex items-center gap-2 rounded-md border border-sky-500/30 bg-sky-500/10 px-3 py-2 text-sm font-medium text-sky-300 transition hover:border-sky-400/50 hover:text-sky-200">
-              <Twitter className="h-4 w-4" /> Twitter
+              <Instagram className="h-5 w-5" />
             </a>
           </div>
         </div>
