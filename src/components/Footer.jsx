@@ -11,11 +11,23 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-3">
-            <a href="#" aria-label="YouTube" className="inline-flex items-center gap-2 rounded-md border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm font-medium text-red-300 transition hover:border-red-400/50 hover:text-red-200">
-              <Youtube className="h-4 w-4" /> YouTube
+            <a
+              href="https://www.youtube.com/@deepakyadavok"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="inline-flex items-center gap-2 rounded-md border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm font-medium text-red-300 transition hover:border-red-400/50 hover:text-red-200"
+            >
+              <Youtube className="h-4 w-4" /> @deepakyadavok
             </a>
-            <a href="#" aria-label="Instagram" className="inline-flex items-center gap-2 rounded-md border border-pink-500/30 bg-pink-500/10 px-3 py-2 text-sm font-medium text-pink-300 transition hover:border-pink-400/50 hover:text-pink-200">
-              <Instagram className="h-4 w-4" /> Instagram
+            <a
+              href="https://www.instagram.com/deepak._x0"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="inline-flex items-center gap-2 rounded-md border border-pink-500/30 bg-pink-500/10 px-3 py-2 text-sm font-medium text-pink-300 transition hover:border-pink-400/50 hover:text-pink-200"
+            >
+              <Instagram className="h-4 w-4" /> @deepak._x0
             </a>
             <a href="#" aria-label="Twitter" className="inline-flex items-center gap-2 rounded-md border border-sky-500/30 bg-sky-500/10 px-3 py-2 text-sm font-medium text-sky-300 transition hover:border-sky-400/50 hover:text-sky-200">
               <Twitter className="h-4 w-4" /> Twitter
